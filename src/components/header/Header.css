@@ -1,0 +1,19 @@
+.header {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #D58303;
+    font-family: 'Oswald', sans-serif;
+  }
+
+.mainTitle {
+    margin-bottom: 3rem;
+}
+
+#logo {
+    margin-top: 3rem;
+}
+  

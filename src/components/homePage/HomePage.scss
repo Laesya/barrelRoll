@@ -1,0 +1,55 @@
+.mainBody {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 9rem;
+    
+}
+
+.carousel {
+    max-width: 50%;
+    margin: auto;
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .carousel {
+        max-width: 100%;
+    }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .carousel {
+        max-width: 100%;
+    }
+}
+
+.carousel img {
+    width: auto !important;
+    height: 45vh;
+    margin: auto;
+}
+
+.carousel h3 {
+    color: #D58303;
+    font-family: 'Oswald', sans-serif;
+    background-color: #000a;
+}
+
+.carousel p {
+    color: #D58303;
+    font-family: 'Oswald', sans-serif;
+    background-color: #000a;
+}

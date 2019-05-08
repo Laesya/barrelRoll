@@ -1,0 +1,41 @@
+
+
+.CardBeer {
+    margin: auto;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    text-align: center;
+    border: 1px solid #D58303 !important;
+    width: 33vh;
+}
+
+
+
+.card-header {
+    background-color: #D58303 !important;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: column;
+    display: grid;
+    background-color: #fff;
+}
+
+.card-footer {
+    background-color: #D58303 !important;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.btn {
+    display: flex;
+    margin: auto;
+    margin-top: 1rem !important;
+}

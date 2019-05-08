@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .navbar-style ul {
+        flex-direction: column;
+    }
+    .navbar-items {
+        text-align: center;
+    }
+    .navbar-items a {
+        font-size: 19px;
+    }
+}
+
+.navbar-style {
+    background-color: #D58303;
+}
+
+.navbar-style ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0 !important;
+}
+.navbar-items {
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.navbar-items a {
+    color: #fff !important;
+    text-decoration: unset !important;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.navbar-items:visited {
+    color: #fff;
+    text-decoration: unset !important;
+}
+
+.active {
+    color: #fff;
+}
+
